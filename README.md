@@ -3,24 +3,12 @@
 ## 📌- Angry Profesor 
 
 <pre>
-function gradingStudents(grades) {
-    let finalGrades = [];
+function angryProfessor(k, a) {
+    const onTimeCount = a.filter(time => time <= 0).length;
 
-    for (let grade of grades) {
-        if (grade < 38) {
-            finalGrades.push(grade);
-        } else {
-            let nextMultiple = Math.ceil(grade / 5) * 5;
-            if (nextMultiple - grade < 3) {
-                finalGrades.push(nextMultiple);
-            } else {
-                finalGrades.push(grade);
-            }
-        }
-    }
-
-    return finalGrades;
+    return onTimeCount < k ? "YES" : "NO";
 }
+
 </pre>
 
 ## 📌2- Cats and a Mouse 
