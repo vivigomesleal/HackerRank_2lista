@@ -1,6 +1,6 @@
 # HackerRank_2lista *Segunda Lista*
 
-## 📌- Angry Profesor 
+## 📌- Angry Professor 
 
 <pre>
 function angryProfessor(k, a) {
